@@ -17,10 +17,6 @@ public class Basics {
        /* given().queryParam("key","qaclick123").queryParam("place_id","0b4cac7d1555df427dd981a6483e457b")
                 .when().get("maps/api/place/get/json")
                 .then().assertThat().log().all().statusCode(200);*/
-        int a;
-        a=10;
-        int b=20;
-        int c = a+b;
-        System.out.println("C is "+c);
+
     }
 }
